@@ -1,0 +1,319 @@
+/*
+ ********
+ *fonts
+ ********
+ */
+@font-face {
+	font-family: 'BPmonoRegular';
+	src: url('font/BPmono-webfont.eot');
+	src: url('font/BPmono-webfont.eot?#iefix') format('embedded-opentype'), url('font/BPmono-webfont.woff') format('woff'), url('font/BPmono-webfont.ttf') format('truetype'), url('font/BPmono-webfont.svg#BPmonoRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'BPmonoBold';
+	src: url('font/BPmonoBold-webfont.eot');
+	src: url('font/BPmonoBold-webfont.eot?#iefix') format('embedded-opentype'), url('font/BPmonoBold-webfont.woff') format('woff'), url('font/BPmonoBold-webfont.ttf') format('truetype'), url('font/BPmonoBold-webfont.svg#BPmonoBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*
+ *******
+body
+ *******
+ */
+body {
+	background: rgb(250,250,250);
+	margin: 0;
+}
+
+/*
+ *******
+navigation
+ *******
+ */
+.navigation {
+	margin: 0px;
+	height: 60px;
+	display: block;
+
+	background: -webkit-linear-gradient(top,grey,rgb(75,75,75));
+	background: -moz-linear-gradient(top,grey,rgb(174,175,175));
+	background: -o-linear-gradient(top,grey,rgb(174,175,175));
+	background: -ms-linear-gradient(top,grey,rgb(174,175,175));
+	background: linear-gradient(top,grey,rgb(174,175,175));
+	overflow: hidden;
+}
+
+.nav_list {
+	text-align: center;
+}
+
+.nav_list li {
+	display: inline;
+	padding-right: 20px;
+}
+
+.nav_list #nvh a {
+	color: rgb(50,50,50);
+}
+
+.nav_list a {
+	font-family: 'Iceland', cursive,sans-serif;
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	width: 131px;
+    border-left: 2px white;
+	-webkit-transition: color .8s,font-size .8s;
+	-moz-transition: color .8s,font-size .8s;
+	-o-transition: color .8s,font-size .8s;
+	-ms-transition: color .8s,font-size .8s;
+	transition: color .8s,font-size .8s;
+}
+
+.nav_list a:hover {
+	color: deepskyblue;
+}
+
+/*
+ *******
+HEAD
+ *******
+ */
+.dept {
+	margin: auto;
+	text-align: center;
+}
+
+h3 {
+	margin-top: 0px;
+	color: rgb(75,75,75);
+	font-size: 32px;
+	font-family: 'Berkshire Swash', cursive;
+	text-shadow: 1px 1px 2px deepskyblue;
+}
+
+h2 {
+	margin-top: -25px;
+	color: rgb(75,75,75);
+	font-size: 35px;
+	font-family: 'Berkshire Swash', cursive;
+	text-shadow: 1px 1px 2px deepskyblue;
+	margin-bottom: 4px;
+}
+
+#ruet a {
+	text-decoration: none;
+	color: rgb(75,75,75);
+	font-size: 50px;
+	font-family: 'Iceland', cursive;
+	text-shadow: 1px 1px 3px white;
+	margin-bottom: 4px;
+}
+
+#ruet a:hover {
+	text-shadow: 1px 1px 3px deepskyblue;
+}
+
+/*
+ *******
+ *Slide
+ *******
+ */
+.slide {
+	width: 820px;
+	padding: auto;
+
+	margin-left: 20%;
+}
+
+h1 {
+	color: green;
+	text-align: center;
+}
+
+.accordian {
+	margin: auto;
+	width: 845px;
+	height: 330px;
+	overflow: hidden; /*-webkit-box-shadow:   2px 2px 20px rgb(0,0,0);
+	
+	 */
+}
+
+.accordian li {
+	position: relative;
+	display: block;
+	width: 160px;
+	float: left;
+	border-left: 1px white;
+
+	-webkit-box-shadow: 2px 2px 5px rgb(0,0,0);
+	box-shadow: 2px 2px 5px rgb(0,0,0);
+
+	-webkit-transition: width .5s;
+	-moz-transition: width .5s;
+	-o-transition: width .5s;
+	-ms-transition: width .5s;
+	transition: width .5s;
+}
+
+.accordian ul:hover li {
+	width: 40px;
+}
+
+.accordian ul li:hover {
+	width: 640px;
+}
+
+.accordian li img {
+	display: block;
+}
+
+/*.accordian a img:hover  {
+	
+-webkit-filter:  none;
+	
+}
+
+ */
+.image_title {
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 640px;
+}
+
+.image_title a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-family: sans-serif;
+	padding: 10px;
+}
+
+/*.pixar  {
+	
+-webkit-filter:  grayscale(20%);
+	
+}
+
+ */
+/*
+ *******
+content
+ *******
+ */
+.block {
+
+	margin-left:20.6%;
+
+}
+
+.box {
+	margin-top: 50px;
+	margin-left: 10px;
+	padding-right: 10px;
+   
+	background: -webkit-linear-gradient(top,rgb(125,125,125),black);
+	background: -moz-linear-gradient(top,rgb(125,125,125),black);
+	background: -o-linear-gradient(top,rgb(125,125,125),black);
+	background: -ms-linear-gradient(top,rgb(125,125,125),black);
+	background: linear-gradient(top,rgb(125,125,125),black);
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	float: left;
+	border-radius: 8px;
+
+	-webkit-transition: height 1s;
+	-moz-transition: height 1s;
+	-o-transition: height 1s;
+	-ms-transition: height 1s;
+	transition: height 1s;
+}
+
+.box:hover {
+	height: 200px;
+}
+
+.block a {
+	text-decoration: none;
+}
+
+.box span {
+	font-family: 'Iceland',sans-serif;
+	font-size: 25px;
+	color: white;
+
+	-webkit-transition: color 1s,font-size 1s;
+	-moz-transition: color 1s,font-size 1s;
+	-o-transition: color 1s,font-size 1s;
+	-ms-transition: color 1s,font-size 1s;
+	transition: color 1s,font-size 1s;
+}
+
+.box:hover span {
+	height: 200px;
+	color: deepskyblue;
+}
+
+.box img {
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+
+	-webkit-transition: -webkit-transform 1s;
+	-moz-transition: -moz-transform 1s;
+	-o-transition: -o-transform 1s;
+	-ms-transition: -ms-transform 1s;
+	transition: transform 1s;
+}
+
+.box:hover img {
+	-webkit-transform: scale(1.4);
+	-moz-transform:  scale(1.4);
+	-o-transform:  scale(1.4);
+	-ms-transform:  scale(1.4);
+	transform: scale(1.4);
+}
+
+/*
+ *******
+sidebar
+ *******
+ */
+/*
+ *******
+footer
+ *******
+ */
+.footer {
+	margin-top: 50px;
+	height: 60px;
+	float: left;
+	width: 100%;
+	background: -webkit-linear-gradient(top,rgb(125,125,125),rgb(75,75,75));
+	background: -moz-linear-gradient(top,rgb(125,125,125),rgb(75,75,75));
+	background: -o-linear-gradient(top,rgb(125,125,125),rgb(75,75,75));
+	background: -ms-linear-gradient(top,rgb(125,125,125),rgb(75,75,75));
+	background: linear-gradient(top,rgb(125,125,125),rgb(75,75,75));
+}
+
+.footer :hover {
+	background: white;
+}
+
+
+/*
+ *******
+extra
+ *******
+ */
+
+
